@@ -33,6 +33,7 @@ async function fetchAPI(word) {
         }
         else {
             // removing loading effect when data is loaded
+            infoTextElement.style.display = 'none';
 
             // displaying the meaning
             meaningContainerElement.style.display = 'block';
